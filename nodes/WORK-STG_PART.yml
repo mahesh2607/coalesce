@@ -27,7 +27,7 @@ steps:
               - columnReferences:
                   - columnCounter: 31a775b3-442e-49ef-8709-0b4acffaa368
                     stepCounter: e66cf71a-354d-42e3-8eea-712842aeb15c
-                transform: ""
+                transform: UPPER("PART"."P_PARTKEY")
           - columnReference:
               columnCounter: 0e95e420-5a3a-4e7a-93d4-d7ca5c3d0055
               stepCounter: 00dafab9-560c-4bfa-b8f2-ed7cb85990ea
@@ -39,7 +39,7 @@ steps:
               - columnReferences:
                   - columnCounter: 56b3f6ab-74eb-43d1-b4bf-0c22cfc9e9a0
                     stepCounter: e66cf71a-354d-42e3-8eea-712842aeb15c
-                transform: ""
+                transform: UPPER("PART"."P_NAME")
           - columnReference:
               columnCounter: afcabf41-de89-4f3d-abb5-56c2d5070aa9
               stepCounter: 00dafab9-560c-4bfa-b8f2-ed7cb85990ea
@@ -51,7 +51,7 @@ steps:
               - columnReferences:
                   - columnCounter: bc225ea6-1e1d-481b-aa0f-4ad188ce7085
                     stepCounter: e66cf71a-354d-42e3-8eea-712842aeb15c
-                transform: ""
+                transform: UPPER("PART"."P_MFGR")
           - columnReference:
               columnCounter: 53511095-a299-40be-a471-7ddfe3648493
               stepCounter: 00dafab9-560c-4bfa-b8f2-ed7cb85990ea
@@ -63,7 +63,7 @@ steps:
               - columnReferences:
                   - columnCounter: e622366a-b43a-419b-ad8b-502647632cb3
                     stepCounter: e66cf71a-354d-42e3-8eea-712842aeb15c
-                transform: ""
+                transform: UPPER("PART"."P_BRAND")
           - columnReference:
               columnCounter: dd14ef6b-5c1a-4aec-b1b6-4bd6ce756d38
               stepCounter: 00dafab9-560c-4bfa-b8f2-ed7cb85990ea
@@ -75,7 +75,7 @@ steps:
               - columnReferences:
                   - columnCounter: 3217d449-03bb-4897-9e23-feab926a82dc
                     stepCounter: e66cf71a-354d-42e3-8eea-712842aeb15c
-                transform: ""
+                transform: UPPER("PART"."P_TYPE")
           - columnReference:
               columnCounter: c84551e0-920d-457c-a586-fd93abfb0c52
               stepCounter: 00dafab9-560c-4bfa-b8f2-ed7cb85990ea

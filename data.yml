@@ -1,6 +1,13 @@
 defaultStorageMapping: WORK
 installedPackages: {}
-jobs: {}
+jobs:
+  Job-1:
+    excludeSelector: ""
+    id: 1
+    includeSelector: "+{ location: WORK name: DIM_CUSTOMER }"
+    name: Job1
+    steps: []
+    subgraphs: []
 locations:
   SAMPLE:
     mappingDefinitions:
